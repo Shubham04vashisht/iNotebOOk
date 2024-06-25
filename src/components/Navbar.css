@@ -1,0 +1,14 @@
+.logo{
+    font-size: 2rem;
+}
+@media (max-width:650px) {
+    .logo{
+        font-size:1.5rem;
+    }
+    .login{
+        font-size: small;
+    }
+    .signup{
+        font-size:small;
+    }
+}
