@@ -1,8 +1,7 @@
-import { Link, useLocation, useNavigate } from "react-router-dom";
+import { Link,  useNavigate } from "react-router-dom";
 import "./Navbar.css";
 
 const Navbar = () => {
-  let location = useLocation();
   let navigate=useNavigate();
   const handleLogOut=()=>{
     localStorage.removeItem("token");

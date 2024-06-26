@@ -72,7 +72,7 @@ const onChange=(e)=>{
             <div className="modal-body">
             <form>
             <div className="mb-3">
-              <label htmlFor="title" class="form-label">
+              <label htmlFor="title" className="form-label">
                 Title
               </label>
               <input
