@@ -1,7 +1,7 @@
 import NoteContext from "./NoteContext";
 import { useState } from "react";
 const NoteState=(props)=>{
-  const host="http://localhost:5000"
+  const host="https://inotebook-api-three.vercel.app"
     const tempNotes=[]
     const [notes,setNotes]=useState(tempNotes);
 
