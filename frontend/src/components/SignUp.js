@@ -9,7 +9,7 @@ const SignUp = (props) => {
     const {name,email,password,cpassword}=credentials;
     const handleSubmit = async (e) => {
         e.preventDefault();
-        const response = await fetch("http://localhost:5000/api/auth/createUser", {
+        const response = await fetch("https://inotebook-api-three.vercel.app/api/auth/createUser", {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
